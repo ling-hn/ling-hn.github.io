@@ -138,7 +138,11 @@ awards:
     summary: ''
 ---
 
-## About Me
+## Flows of Mountain, Depths of Time
 
-	
-PhD in Chemical Engineering with expertise in computational modeling of soft matter physics, focusing on developing models and simulations with flow behavior of complex viscoelastic fluids for optimization of processing condition. Skilled in programming and parallel computing to optimize simulations and develop data-driven solutions. Recognized for problem-solving abilities and self-motivation, with strong communication and collaboration skills. Proven ability to work effectively with interdisciplinary teams and deliver impactful results in collaboration with industrial partners.
+I am a PhD in Chemical Engineering with expertise in computational modeling for soft matter physics.
+
+Also enthusiastic in Data Science and Machine Learning through self-learning.
+Detailed background and CV please find in Bio. 
+
+Here is also an archive of my learning log in various scientific topics as well as some writings on music and history stories.
