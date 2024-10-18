@@ -36,11 +36,6 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-6287-9650
 
-interests:
-  - Computational Rheology
-  - Soft Matter
-  - Data Science
-
 education:
   - area: PhD Chemical Engineering
     institution: National Chung Cheng University (Taiwan)
