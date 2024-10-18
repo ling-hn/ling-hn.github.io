@@ -47,11 +47,11 @@ education:
     date_start: ''
     date_end: ''
     summary: |
-      Mesoscale Simulation of the Rheology-Morphology Relationship in Polymer-Elastomer Blends
-      - Developed multiscale models for polymer materials, integrating both established simulation platforms and custom-programmed analysis tools for comprehensive data analysis and visualization
-      - Applied multi-dimensional data modeling and regression analysis to simulate and optimize polymer processing
-      - Managed thorough data documentation and published findings in high-impact research journals
-      - Presented data-driven insights and analytical results to academic and industrial partners
+    - Dissertation: Mesoscale Simulation of the Rheology-Morphology Relationship in Polymer-Elastomer Blends
+    - Developed multiscale models for polymer materials, integrating both established simulation platforms and custom-programmed analysis tools for comprehensive data analysis and visualization
+    - Applied multi-dimensional data modeling and regression analysis to simulate and optimize polymer processing
+    - Managed thorough data documentation and published findings in high-impact research journals
+    - Presented data-driven insights and analytical results to academic and industrial partners
   - area: Bachelor, Chemical Engineering 
     institution: National Chung Cheng University (Taiwan)
     date_start: ''
