@@ -50,8 +50,8 @@ education:
       - Dissertation: Mesoscale Simulation of the Rheology-Morphology Relationship in Polymer-Elastomer Blends
       - Developed multiscale models for polymer materials, integrating both established simulation platforms and custom-programmed analysis tools for comprehensive data analysis and visualization
       - Applied multi-dimensional data modeling and regression analysis to simulate and optimize polymer processing
-	  - Managed thorough data documentation and published findings in high-impact research journals
-	  - Presented data-driven insights and analytical results to academic and industrial partners
+      - Managed thorough data documentation and published findings in high-impact research journals
+      - Presented data-driven insights and analytical results to academic and industrial partners
   - area: Bachelor Chemical Engineering 
     institution: National Chung Cheng University (Taiwan)
     date_start: ''
@@ -73,8 +73,8 @@ work:
       - Developed computational simulation and phenomenological model
       - Optimized algorithms and numerical methods, enhancing data processing efficiency for large-scale data complex and model
       - Collaborated on GitHub for version control and code documentation, improving data management
-	  - Mastered parallel computing and GPU-accelerated programming software, increasing simulation processing speed for complex data-intensive tasks
-	  - Analyzed and visualized large datasets using Python, delivering useful insights for industrial and academic partners
+      - Mastered parallel computing and GPU-accelerated programming software, increasing simulation processing speed for complex data-intensive tasks
+      - Analyzed and visualized large datasets using Python, delivering useful insights for industrial and academic partners
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
