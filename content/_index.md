@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "12rem"
+  spacing: "20rem"
 
 sections:
   - block: resume-biography-3
@@ -14,10 +14,6 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Bio
-        url: https://ling-hn.github.io/experience/
     design:
       css_class: dark
       background:
@@ -26,10 +22,12 @@ sections:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 1.0
+            brightness: 2.0
           size: cover
           position: center
           parallax: false
+      spacing:
+        padding_bottom: 8rem 
   - block: collection
     id: news
     content:
