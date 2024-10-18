@@ -13,11 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text:
-    I am a PhD in Chemical Engineering with expertise in computational modeling for soft matter physics.
-
-    Also enthusiastic in Data Science and Machine Learning through self-learning.
-Detailed background and CV please find in Bio.
+      text: I am a PhD in Chemical Engineering with expertise in computational modeling for soft matter physics. Also enthusiastic in Data Science and Machine Learning through self-learning. Detailed background and CV please find in Bio.
 
       # Show a call-to-action button under your biography? (optional)
       button:
