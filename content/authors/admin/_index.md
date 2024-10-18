@@ -61,8 +61,8 @@ work:
     company_name: Institute for Theoretical Physics, Georg-August-University Göttingen
     company_url: ''
     company_logo: ''
-    date_start: ''
-    date_end: ''
+    date_start: '2022'
+    date_end: '2023'
     summary: |2-
       Worked in a collaborative projects of "Computer-aided materials physics" with Goodyear S.A. Luxembourg.
       - Developed computational simulation and phenomenological model
@@ -125,12 +125,6 @@ awards:
     icon: coursera
     summary: |
       Honed hands-on skills in Data Science and Machine Learning with proficiency in SQL and Python. Developed a thorough understanding of the data scientist role.
-  - title: ''
-    url: ''
-    date: ''
-    awarder: ''
-    icon: ''
-    summary: ''
 ---
 
 ## Flows of Mountain, Depths of Time
