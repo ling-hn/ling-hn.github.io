@@ -30,45 +30,6 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: 'About'
-      subtitle: ''
-      text: |-
-        I am a PhD in Chemical Engineering with expertise in computational modeling for soft matter physics. Also enthusiastic in Data Science and Machine Learning through self-learning. Detailed background and CV please find HERE. Here is also an archive of my learning log in various scientific topics as well as some writings on music and history stories.
-    design:
-      columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
   - block: collection
     id: news
     content:
