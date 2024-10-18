@@ -22,12 +22,12 @@ sections:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 0.5
+            brightness: 1.0
           size: cover
           position: center
           parallax: false
       spacing:
-        padding_bottom: 80rem 
+        padding_bottom: 2cm
   - block: collection
     id: news
     content:
