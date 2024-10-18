@@ -13,11 +13,16 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
+      text:
+    I am a PhD in Chemical Engineering with expertise in computational modeling for soft matter physics.
+
+    Also enthusiastic in Data Science and Machine Learning through self-learning.
+Detailed background and CV please find in Bio.
+
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
-        url: uploads/resume.pdf
+        text: Bio
+        url: https://ling-hn.github.io/experience/
     design:
       css_class: dark
       background:
@@ -35,11 +40,14 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am a PhD in Chemical Engineering with expertise in computational modeling for soft matter physics.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+    Also enthusiastic in Data Science and Machine Learning through self-learning.
+Detailed background and CV please find HERE.
+
+Here is also an archive of my learning log in various scientific topics as well as some writings on music and history stories.
+
+
     design:
       columns: '1'
   - block: collection
