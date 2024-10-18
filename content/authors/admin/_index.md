@@ -3,7 +3,7 @@
 title: Ling Hua Huang
 
 # Name pronunciation (optional)
-name_pronunciation: 黃齡嬅
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Ling Hua  
@@ -19,7 +19,7 @@ superuser: true
 highlight_name: false
 
 # Role/position/tagline
-role: PhD in Chemical Engineering
+role: 黃齡嬅
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -30,11 +30,11 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/ling-hn
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/lhhuang93/
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0002-6287-9650
 
 interests:
   - Computational Rheology
