@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "12rem"
 
 sections:
   - block: resume-biography-3
@@ -30,10 +30,6 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: collection
-    id: news
-    content:
-      title: ''
   - block: collection
     id: news
     content:
