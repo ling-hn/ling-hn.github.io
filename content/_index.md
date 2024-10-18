@@ -14,11 +14,10 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
-
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Bio
-        url: https://ling-hn.github.io/experience/
+        text: Download CV
+        url: uploads/resume.pdf
     design:
       css_class: dark
       background:
