@@ -36,13 +36,8 @@ sections:
       subtitle: ''
       text: |-
         I am a PhD in Chemical Engineering with expertise in computational modeling for soft matter physics.
-
-    Also enthusiastic in Data Science and Machine Learning through self-learning.
-Detailed background and CV please find HERE.
-
-Here is also an archive of my learning log in various scientific topics as well as some writings on music and history stories.
-
-
+        Also enthusiastic in Data Science and Machine Learning through self-learning. Detailed background and CV please find HERE.
+        Here is also an archive of my learning log in various scientific topics as well as some writings on music and history stories.
     design:
       columns: '1'
   - block: collection
