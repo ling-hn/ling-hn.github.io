@@ -1,80 +1,111 @@
 ---
 # Display name
-title: Ling Hua Huang
+title: 吳健雄
 
 # Name pronunciation (optional)
-name_pronunciation: 黃齡嬅
+name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Ling Hua  
-last_name: Huang
+first_name: Shiung Wu
+last_name: Chien
+
 # Status emoji
 status:
-  icon: 📯
+  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 
 # Role/position/tagline
-role: PhD in Chemical Engineering
+role: Chief Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: ''
-    url: ''
+  - name: OpenAI
+    url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
+  - icon: at-symbol
+    url: 'mailto:your-email@example.com'
+    label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
+  - icon: brands/instagram
+    url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/gcushen
   - icon: brands/linkedin
     url: https://www.linkedin.com/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
   - icon: academicons/orcid
     url: https://orcid.org/
 
 interests:
-  - Computational Rheology
-  - Soft Matter
-  - Data Science
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
 
 education:
-  - area: PhD Chemical Engineering
-    institution: National Chung Cheng University (Taiwan)
-    date_start: ''
-    date_end: ''
+  - area: PhD Artificial Intelligence
+    institution: Stanford University
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      - Dissertation: Mesoscale Simulation of the Rheology-Morphology Relationship in Polymer-Elastomer Blends
-      - Developed multiscale models for polymer materials, integrating both established simulation platforms and custom-programmed analysis tools for comprehensive data analysis and visualization
-      - Applied multi-dimensional data modeling and regression analysis to simulate and optimize polymer processing
-	  - Managed thorough data documentation and published findings in high-impact research journals
-	  - Presented data-driven insights and analytical results to academic and industrial partners
-  - area: Bachelor Chemical Engineering 
-    institution: National Chung Cheng University (Taiwan)
-    date_start: ''
-    date_end: ''
+      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com'
+  - area: MEng Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      - Thesis: Evaluating Accurate Molecular Mechanics Force Field for P3HT Conjugated Polymer
-      - Parameterization and optimization of models, applying regression analysis and data-driven techniques to improve model accuracy and performance
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      GPA: 3.8/4.0
 
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BSc Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.4/4.0
+      
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Research Assistant
-    company_name: Institute for Theoretical Physics, Georg-August-University Göttingen
+  - position: Director of Cloud Infrastructure
+    company_name: GenCoin
     company_url: ''
     company_logo: ''
-    date_start: ''
+    date_start: 2021-01-01
     date_end: ''
     summary: |2-
-      Worked in a collaborative projects of "Computer-aided materials physics" with Goodyear S.A. Luxembourg.
-      - Developed computational simulation and phenomenological model
-      - Optimized algorithms and numerical methods, enhancing data processing efficiency for large-scale data complex and model
-      - Collaborated on GitHub for version control and code documentation, improving data management
-	  - Mastered parallel computing and GPU-accelerated programming software, increasing simulation processing speed for complex data-intensive tasks
-	  - Analyzed and visualized large datasets using Python, delivering useful insights for industrial and academic partners
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Backend Software Engineer
+    company_name: X
+    company_url: ''
+    company_logo: ''
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -83,15 +114,15 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: ''
+        percent: 80
         icon: code-bracket
       - name: Data Science
         description: ''
-        percent: ''
+        percent: 100
         icon: chart-bar
       - name: SQL
         description: ''
-        percent: ''
+        percent: 40
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
@@ -99,24 +130,24 @@ skills:
     items:
       - name: Hiking
         description: ''
-        percent: ''
+        percent: 60
         icon: person-simple-walk
       - name: Cats
         description: ''
-        percent: ''
+        percent: 100
         icon: cat
       - name: Photography
         description: ''
-        percent: ''
+        percent: 80
         icon: camera
 
 languages:
-  - name: German (C1)
-    percent: 75
-  - name: English (C2)
-    percent: 90
-  - name: Mandarin (Nativ)
+  - name: English
     percent: 100
+  - name: Chinese
+    percent: 75
+  - name: Portuguese
+    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
