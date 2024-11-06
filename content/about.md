@@ -5,22 +5,71 @@ hide_date: true
 reading_time: false
 ---
 
-The idea of a Uses page is to tell you about the stuff I use.
+---
 
-Make sure to check out [uses.tech](https://uses.tech/) for a list of everyone's Uses pages!
+# Ling-Hua Huang
 
-I often get asked about what software or hardware I use, so this page will serve as a living document and a place to point curious readers to when I get asked.
+PhD in Chemical Engineering with expertise in computational physics and soft matter, particularily in computational rheology. Skilled in Python and Fortran, specializing in data analysis, multidimensional data modeling, and statistical modeling. Experienced in parallel computing, high-performance computing, and distributed systems. Recognized for innovative problem-solving and cross-functional communication.
 
-## Website
+---
 
-- [Hugo Blox](https://hugoblox.com) (see the tutorial on [Getting Started](/blog/get-started/))
+### Experience
 
-## Editor + Terminal
+**Research Scientist**  
+*Institute for Theoretical Physics, Georg-August-University Göttingen*  
+*2022 - 2023*
+- Collaborated on the "Computer-aided Materials Physics" project with Goodyear S.A. Luxembourg.
+- Developed computational simulations and phenomenological models.
+- Conducted large-scale simulations on high-performance computing architectures (Jülich Supercomputer Centre).
+- Improved data management and version control through GitHub collaboration.
+- Increased simulation processing speed by 40% through parallel computing and GPU-accelerated programming.
+- Analyzed and visualized large datasets, providing insights for academic and industrial partners.
 
-- [Visual Studio Code](https://code.visualstudio.com/) is my current editor
-- Chrome is my main browser
-- iTerm2 is my terminal
+---
 
-## Desktop Apps
+### Education
 
-- Better Touch Tool for window management and custom keyboard shortcuts
+**PhD in Chemical Engineering**  
+National Chung Cheng University, Taiwan  
+*2017 – 2023*  
+- Dissertation: *Mesoscale Simulation of the Rheology-Morphology Relationship in Polymer-Elastomer Blends*
+- Developed multiscale models for polymer materials using custom-programmed analysis tools.
+- Applied multi-dimensional data modeling for polymer processing optimization.
+
+**Bachelor's in Chemical Engineering**  
+National Chung Cheng University, Taiwan  
+*2012 – 2016*
+- Thesis: *Evaluating Accurate Molecular Mechanics Force Field for P3HT Conjugated Polymer*
+- Parameterized and optimized models, improving accuracy through regression analysis.
+
+---
+
+### Skills
+
+#### Programming
+- **Languages**: Python, Fortran, R (Basic), SQL (Basic)
+- **Libraries/Tools**: Numpy, Pandas, Matplotlib, Seaborn, SciPy
+- **Machine Learning**: TensorFlow, PyTorch
+- **Version Control**: GitHub, Jupyter Notebooks
+- **Data Visualization**: Dashboards
+
+#### Parallel & Accelerated Computing
+- GPU-accelerated optimization (HOOMD), MPI, OpenMP
+- High-performance computing for large-scale simulations
+
+#### Other Software
+- **Operating Systems**: Windows, Linux
+- **Office Software**: Microsoft Office, LaTeX, Markdown
+
+### Certifications
+
+- [IBM Data Science Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/UBSI4W20QJAD)
+- [IBM Data Analyst Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/5JEVPJ8MYN24)
+  
+### Languages
+
+- **German**: C1
+- **English**: C2
+- **Mandarin**: Native
+
+
