@@ -1,13 +1,16 @@
 ---
-title: High School Math?
-summary:  Diagonalization of the Matrix $L$
-date: 2023-10-25
+title: Tools for Data Science
+summary: Study note together with IBM Data Science Professional ceritificate on Coursea.
+date: 2024-10-01
 authors:
   - admin
-tags:
-  - Richard
+categories: ["Study Notes"]
+tags: ["Certificate"]
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+features:
+  math:
+    enable: true
 ---
 
 >  Is this High School Math?
