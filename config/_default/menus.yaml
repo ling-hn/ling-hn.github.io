@@ -6,10 +6,15 @@ main:
     url: /
     weight: 10
   - name: Blog
-    url: blog/
+    identifier: blog
     weight: 20
   - name: Projects
+    parent: blog
     url: projects/
+    weight: 20
+  - name: Notes
+    parent: blog
+    url: blog/
     weight: 20
   - name: About
     url: about/
