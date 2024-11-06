@@ -15,7 +15,7 @@ main:
   - name: Notes
     parent: blog
     url: blog/
-    weight: 20
+    weight: 30
   - name: About
     url: about/
     weight: 30
