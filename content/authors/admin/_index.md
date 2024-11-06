@@ -31,7 +31,7 @@ bio: 'Simulation works!...why?'
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: brands/linkedin
-    url: [https://www.linkedin.com/](https://www.linkedin.com/in/lhhuang93/)
+    url: https://www.linkedin.com/in/lhhuang93/
   - icon: rss
     url: ./post/index.xml
     label: Subscribe to my blog via RSS feed
@@ -43,5 +43,4 @@ highlight_name: false
 website: ""
 ---
 
-I am a PhD in Chemical Engineering with expertise in computational modeling for soft matter physics.
-Also enthusiastic in Data Science and Machine Learning through self-learning. Here is also a learning log in various scientific topics as well as on music and history stories.
+I am a PhD in Chemical Engineering with expertise in computational modeling for soft matter physics. Also enthusiastic in Data Science and Machine Learning through self-learning. Here is also a learning log in various scientific topics as well as on music and history stories.
