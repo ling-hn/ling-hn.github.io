@@ -1,3 +1,4 @@
 ---
-title: Blog
+title: 
+summary: Study Notes
 ---
