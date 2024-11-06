@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "Ling's Blog" # Website name
+title: "L. H. Huang" # Website name
 baseURL: 'https://example.com/' # Website URL
 
 ############################
@@ -16,13 +16,13 @@ cascade:
       path: /blog/**
       kind: page
     pager: true
-    editable: true
-    hide_date: false
-    show_date_updated: true
+    editable: false
+    hide_date: true
+    show_date_updated: false
     reading_time: true
     commentable: true
-    show_related: true
-    share: true
+    show_related: false
+    share: false
     # Just use Breadcrumb for navigation on blog post pages?
     show_breadcrumb: false
     header:
