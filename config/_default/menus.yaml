@@ -8,6 +8,9 @@ main:
   - name: Blog
     url: blog/
     weight: 20
+  - name: Projects
+    url: projects/
+    weight: 20
   - name: About
     url: about/
     weight: 30
