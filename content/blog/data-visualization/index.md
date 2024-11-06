@@ -2,8 +2,7 @@
 title: Tools for Data Science
 summary: Study note together with IBM Data Science Professional ceritificate on Coursea.
 date: 2024-10-01
-authors:
-  - admin
+authors: L. H. Huang
 categories: ["Study Notes"]
 tags: ["Certificate"]
 image:
