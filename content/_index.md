@@ -3,14 +3,10 @@ title: 'Home'
 date: 2024-11-18
 type: landing
 sections:
-  - block: resume-biography
+  - block: collection
     content:
       title: 'Flows of Mountain, Depths of Time'
     design:
-      spacing:
-        padding: [0, 0, 0, 0]
-      biography:
-        style: 'text-align: justify; font-size: 0.8em;'
       background:
     # Choose a color such as from https://html-color-codes.info
         image:
@@ -21,6 +17,12 @@ sections:
               brightness: 0.6
               size: cover
               position: center
+  - block: resume-biography
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
+      biography:
+        style: 'text-align: justify; font-size: 0.8em;'
   - block: collection
     content:
       title: 'Recent Update'
@@ -28,7 +30,6 @@ sections:
         folders:
           - blog
     design:
-      view: showcase
       spacing:
         padding: ['3rem', 0, '6rem', 0]
 ---
