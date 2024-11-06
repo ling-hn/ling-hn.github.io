@@ -1,5 +1,5 @@
 ---
-title: About
+title: Ling-Hua Huang
 date: 2023-10-24
 hide_date: true
 reading_time: false
@@ -7,9 +7,7 @@ reading_time: false
 
 ---
 
-# Ling-Hua Huang
-
-PhD in Chemical Engineering with expertise in computational physics and soft matter, particularily in computational rheology. Skilled in Python and Fortran, specializing in data analysis, multidimensional data modeling, and statistical modeling. Experienced in parallel computing, high-performance computing, and distributed systems. Recognized for innovative problem-solving and cross-functional communication.
+*PhD in Chemical Engineering with expertise in computational physics and soft matter, particularily in computational rheology. Skilled in Python and Fortran, specializing in data analysis, multidimensional data modeling, and statistical modeling. Experienced in parallel computing, high-performance computing, and distributed systems. Recognized for innovative problem-solving and cross-functional communication.*
 
 ---
 
