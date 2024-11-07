@@ -37,16 +37,7 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
-languages:
-  de:
-    contentDir: content
-    weight: 2
-  en:
-    contentDir: content
-    weight: 1
-  zh-Hant:
-    contentDir: content
-    weight: 1
+
 ############################
 ## ADVANCED
 ############################
