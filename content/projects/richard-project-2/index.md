@@ -1,5 +1,5 @@
 ---
-title: Diagonalization of the Matrix
+title: (2) Diagonalization of a Matrix
 summary: Is this High School Math?
 date: 2024-09-01
 authors: L. H. Huang

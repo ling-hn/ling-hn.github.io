@@ -1,6 +1,6 @@
 ---
 title: Fractal Dimension
-summary: 
+summary: An index for characterizing fractal patterns or sets by quantifying their complexity as a ratio of the change in detail to the change in scale.
 date: 2023-06-01
 authors: L. H. Huang
 tags: ["Study Notes", "Physics", "Polymer"]
@@ -9,12 +9,9 @@ features:
     enable: true
 ---
 
-# Fractal Dimension
-
 * **Fractal**: Self-similar. A geometric shape containing detailed structure at arbitrarily small scales, usually having a fractal dimension strictly exceeding the topological dimension.
 
 * **Fractal dimension**: An index for characterizing fractal patterns or sets by quantifying their complexity as a ratio of the change in detail to the change in scale.
-
 
 \begin{align}
  N &= r^D &\\
