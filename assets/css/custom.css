@@ -1,8 +1,8 @@
 /* General settings */
 body {
-  font-size: 12px; /* Base font size */
+  font-size: 16px; /* Base font size */
   line-height: 1.5;
-  max-width: 800px; /* Set max width for the page content */
+  max-width: 1600px; /* Set max width for the page content */
   margin: 0 auto; /* Center content horizontally */
   padding: 20px; /* Add some padding around the page */
   font-family: Arial, sans-serif;
@@ -27,7 +27,7 @@ h4 {
 
 /* Paragraph font size */
 p {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 /* Optional: Width for specific containers (like article or main content) */

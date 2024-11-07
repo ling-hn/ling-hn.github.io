@@ -3,32 +3,7 @@ title: Ling-Hua Huang
 hide_date: true
 reading_time: false
 ---
-<style>
-body {
-  font-size: 14px; /* Adjust the size as needed */
-}
 
-h1 {
-  font-size: 18px;
-}
-
-h2 {
-  font-size: 16px;
-}
-
-h3 {
-  font-size: 16px;
-}
-
-h4 {
-  font-size: 14px;
-}
-
-p {
-  font-size: 14px;
-}
-
-</style>
 ---
 
 *PhD in Chemical Engineering with expertise in computational physics and soft matter, particularily in computational rheology. Skilled in Python and Fortran, specializing in data analysis, multidimensional data modeling, and statistical modeling. Experienced in parallel computing, high-performance computing, and distributed systems. Recognized for innovative problem-solving and cross-functional communication.*
