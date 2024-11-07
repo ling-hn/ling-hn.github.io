@@ -1,12 +1,9 @@
 ---
-title: Tools for Data Science
-summary: Study note together with IBM Data Science Professional ceritificate on Coursea.
-date: 2024-10-01
+title: Diagonalization of the Matrix
+summary: Is this High School Math?
+date: 2024-09-01
 authors: L. H. Huang
-categories: ["Study Notes"]
-tags: ["Certificate"]
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+tags: ["Study Notes", "Richard", "Math"]
 features:
   math:
     enable: true
