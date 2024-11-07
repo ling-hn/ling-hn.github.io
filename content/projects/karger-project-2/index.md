@@ -1,7 +1,6 @@
 ---
 title: "Fake Doctor?" 
 summary: Is Kärger a fake doctor? 
-date: 2024-11-02
 authors: L. H. Huang, A. van der Ham
 tags: ["Kärger", "History"]
 features:
@@ -9,11 +8,7 @@ features:
     enable: true
 ---
 
-![image](https://hackmd.io/_uploads/S1Da4S5ZJe.png)
-
 *Eduard Kärger, born in Althöfchen in 1843,  was a high school math teacher (Gymnasiallehrer) in Poznan. We found an announcement of his dissertation on an academica news. He got a doctorate degree in philosophy at University Göttingen in 1875. Detailed investigation of Kärger's life can be found [here](https://ling-hn.github.io/projects/karger-project-1/).*
-
-# "Fake Doctor"?
 
 Despite extensive investigation, there remains a lack of concrete evidence that Kärger ever visited Göttingen or registered at Göttingen University. By all accounts, he appears to have spent the majority of his study in Berlin. At the time of his promotion, he lived in Poznan, 600 kilometers away from Göttingen. This raises an intriguing question: How, then, did he manage to obtain a doctorate from Göttingen? What circumstances allowed him to pursue or receive this credential from a University with which he seemingly had no direct ties? To answer these questions, we must first understand how one would acquire a doctorate in 19th-century Prussia and what studying for a PhD at that time entailed. Interestingly, we uncover a common practice known as "Promotion in absentia", which raises further doubts about the legitimacy of Kärger's PhD... 
 

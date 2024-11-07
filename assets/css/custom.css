@@ -8,6 +8,16 @@ body {
   font-family: Georgia, serif;
 }
 
+/* Heading sizes */
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+
 /* Optional: Width for specific containers (like article or main content) */
 .container {
   max-width: 800px;
