@@ -1,7 +1,7 @@
 ---
-title: (2) Diagonalization of a Matrix
+title: Diagonalization of a Matrix
 summary: Is this High School Math?
-date: 2024-09-01
+date: 2024-09-02
 authors: L. H. Huang
 tags: ["Study Notes", "Richard", "Math"]
 features:

@@ -7,9 +7,38 @@ tags: ["Study Notes", "Physics"]
 features:
   math:
     enable: true
+design:
+  css_style: 'font-size: 1px;' 
 ---
 
-# Probability Basics
+<style>
+body {
+  font-size: 14px; /* Adjust the size as needed */
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+}
+
+</style>
+
+### Probability Basics
 
 - **Probability**
   - A measure of the "likelihood" that an event will occur. 
@@ -23,17 +52,17 @@ features:
       - Continuous Random Variables: an uncountably infinite number of possible values within or interval
 
 #### Probability Mass Functions (PMF) 
-\begin{align}
+$$
     P(X = x)
-\end{align}
+$$
 
 - A discrete random variable $X$ gives the probability that $X$ takes on a specific value $x$
 - Examples: Bernoulli distribution, Binomial distribution, and Geometric distribution
 
 #### Cumulative Distribution Functions (CDF)
-\begin{align}
+$$
     F_X(x) = P(X \leq x)
-\end{align}
+$$
 
 - The accumulated probability up to $x$ that the random variable $X$ can achieve. It provides a complete picture of the distribution of $X$ from $-\infty$ to $\infty$.
 - Properties
@@ -42,10 +71,12 @@ features:
     3. Right-Continuity: $\lim_{h \to 0^+} F_X(x + h) = F_X(x)$.
 
 #### Probability Density Functions (PDF)
-\begin{align}
-    &f_X(a \leq x \leq b)=\int_a^b f_X(x) dx \\
-    &\int_{-\infty}^{\infty} f_X(x) dx = 1
-\end{align}
+$$
+    f_X(a \leq x \leq b)=\int_a^b f_X(x) dx
+$$
+$$
+    \int_{-\infty}^{\infty} f_X(x) dx = 1
+$$
 
 - A continuous random variable $X$, denoted as $f_X(x)$, is a function that describes the relative likelihood of $X$ taking on a specific value $x$.
 
@@ -190,60 +221,60 @@ The etymology of the translation is unclear, but a post on a [BBS](https://www.p
 ## Definitions
 The $n^{th}$ moment is defined as 
 
-\begin{align}
+$$
 \mathbb{E}[(X - c)^n] = \int_{-\infty}^{\infty} (x - c)^n f(x) \, dx
-\end{align}
+$$
 
 - When $c = 0$: This formula simplifies to the **$n^{th}$ raw moment**, providing information about the shape of the distribution relative to the origin (zero)
-\begin{align}
+$$
 \mathbb{E}[X^n] = \int_{-\infty}^{\infty} x^n f(x) dx
-\end{align}
+$$
 
 - When $c = \mu$: The mean $\mu$ of $X$, the formula gives the **$n^{th}$ central moment**, prioviding information about the shape of the distribution relative to its mean. 
-\begin{align}
+$$
 \mu_n =\mathbb{E}[(X -  \mu)^n] = \int_{-\infty}^{\infty} (x -  \mu)^n f(x) dx
-\end{align} Central moments provide information about the shape of the distribution relative to its mean. 
+$$Central moments provide information about the shape of the distribution relative to its mean. 
 
 **Standardized moments**: a dimensionless form to express moments of a probability distribution and provide a way to compare distributions with different scales. Usually for higher order of moment.
-\begin{align}
+$$
 \bar{\mu_n} = \frac{\mu_n}{\sigma^n} = \frac{\mathbb{E}[(X - \mu)^n]}{\left(\sqrt{\mathbb{E}[(X - \mu)^2]} \right)^n}
-\end{align} where $\mathbb{E}[(X - \mu)^n]$ is the $n$-th central moment of $X$ and $\sigma$ is the standard deviation of $X$, which is the square root of the variance. 
+$$where $\mathbb{E}[(X - \mu)^n]$ is the $n$-th central moment of $X$ and $\sigma$ is the standard deviation of $X$, which is the square root of the variance. 
 
 ### $0^{th} \text{ moment}$: Total Probability (*Mass*)
-\begin{align}
+$$
 \mu_0 = \bar{\mu_n} = \mathbb{E}[(X - \mu)^0] = \mathbb{E}[1] = 1
-\end{align} 
+$$
 
 
 ![image](https://hackmd.io/_uploads/H140o86d0.png)
 
 ### $1^{st} \text{ moment}$: Expectation (Mean) (*Mean position*)
-\begin{align}
+$$
 \mu_1 = \mu = \begin{cases} 
 \sum_{x} x p(x) \quad \text{ (discrete)} \\
 \int_{-\infty}^{\infty} x f(x) dx  \quad \text{ (continuous)}
 \end{cases}
-\end{align} 
+$$
 
 ![image](https://hackmd.io/_uploads/SyO_60JtR.png)
 
 
 ### $2^{nd} \text{ moment}$: Variance (*Spread*)
-\begin{align}
+$$
 \mu_2 = \sigma^2 = \mathbb{E}[(X - \mu)^2] = \int_{-\infty}^{\infty} (x -  \mu)^2 f(x) dx \\
 \text{Standard deviation } \sigma = \sqrt{\mu_2} = \sqrt{\mathbb{E}[(X - \mu)^2]}
-\end{align} 
+$$
 
 ![image](https://hackmd.io/_uploads/SJ-opAkFA.png)
 
 ### $3^{rd} \text{ standardized moment}$: Skewness (*Asymmetry*)
-    - A skewness of 0 indicates a symmetric distribution.
-    - A positive skewness indicates a distribution with a longer right tail (right-skewed).
-    - A negative skewness indicates a distribution with a longer left tail (left-skewed).
+- A skewness of 0 indicates a symmetric distribution.
+- A positive skewness indicates a distribution with a longer right tail (right-skewed).
+- A negative skewness indicates a distribution with a longer left tail (left-skewed).
 
-\begin{align}
+$$
 \bar{\mu_3} = \frac{\mu_3}{\sigma^3}\frac{\mathbb{E}[(X - \mu)^3]}{\left(\sqrt{\mathbb{E}[(X - \mu)^2]} \right)^3}
-\end{align} 
+$$
 
 ![image](https://hackmd.io/_uploads/SyEfpAJK0.png)
 
@@ -254,9 +285,9 @@ The $n^{th}$ moment is defined as
 : Normalized by distribution shape instead distribution position.
 
 Moments are not dimensionless—they have units that depend on the power $n$ of the units of $X$. To make moments comparable across different scales and units, we standardize them. The standardized $n^{th}$ moments is obtained by dividing the $n^{th}$ central moment central moment by a normalization factor. 
-\begin{align}
+$$
 \bar{\mu_n} = \frac{\mathbb{E}[(X - \mu)^n]}{\left(\sqrt{\mathbb{E}[(X - \mu)^2]} \right)^n} [=] \frac{X^n}{\sqrt{X^2}^{n}} [=] X^0 \quad \text{dimensionless quantity}
-\end{align} Recall that the mean provides a measure of central tendency. It tells us where the center of a distribution is located and based on it we calculate the second moment (how does the distribution spread) and the third moment (how does the distirbution look like). While the mean provides information about the center, it doesn’t directly address the scale of dispersion or how asymmetrically the data are distributed. Therefore, using the standard deviation (which accounts for spread) makes more sense for normalizing moments like skewness and kurtosis.
+$$Recall that the mean provides a measure of central tendency. It tells us where the center of a distribution is located and based on it we calculate the second moment (how does the distribution spread) and the third moment (how does the distirbution look like). While the mean provides information about the center, it doesn’t directly address the scale of dispersion or how asymmetrically the data are distributed. Therefore, using the standard deviation (which accounts for spread) makes more sense for normalizing moments like skewness and kurtosis.
 
 <p>
   <img src="https://hackmd.io/_uploads/BkeIlyeYC.png", style="width: 70%;"/>
@@ -269,10 +300,10 @@ Moments are not dimensionless—they have units that depend on the power $n$ of 
 
 A statistical measure that quantifies textremity of a distribution's tails compared to a normal distribution. Specifically, it assesses the propensity for extreme values (極端值) or **outliers**(離群值), reflecting how sharply a distribution peaks and how heavy its tails are. 
 
-\begin{align}
+$$
 \text{Kurtosis } \quad & \bar{\mu_4} = \frac{\mu_4}{\sigma^4}\frac{\mathbb{E}[(X - \mu)^4]}{\left(\sqrt{\mathbb{E}[(X - \mu)^2]} \right)^4} \\
 \text{Excess Kurtosis } \quad  & \bar{\mu_4}_{excess} =\bar{\mu_4}-3
-\end{align} 
+$$
 
 <p>
   <img src="https://hackmd.io/_uploads/HkCnPbgK0.png", style="width: 70%;"/>

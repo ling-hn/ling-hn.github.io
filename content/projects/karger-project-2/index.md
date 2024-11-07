@@ -1,7 +1,7 @@
 ---
-title: (2) "Fake Doctor?" 
+title: "Fake Doctor?" 
 summary: Is Kärger a fake doctor? 
-date: 2024-11-01
+date: 2024-11-02
 authors: L. H. Huang, A. van der Ham
 tags: ["Kärger", "History"]
 features:
@@ -11,7 +11,7 @@ features:
 
 ![image](https://hackmd.io/_uploads/S1Da4S5ZJe.png)
 
-*Eduard Kärger, born in Althöfchen in 1843,  was a high school math teacher (Gymnasiallehrer) in Poznan. We found an announcement of his dissertation on an academica news. He got a doctorate degree in philosophy at University Göttingen in 1875. Detailed investigation of Kärger's life can be found here.*
+*Eduard Kärger, born in Althöfchen in 1843,  was a high school math teacher (Gymnasiallehrer) in Poznan. We found an announcement of his dissertation on an academica news. He got a doctorate degree in philosophy at University Göttingen in 1875. Detailed investigation of Kärger's life can be found [here](https://ling-hn.github.io/projects/karger-project-1/).*
 
 # "Fake Doctor"?
 

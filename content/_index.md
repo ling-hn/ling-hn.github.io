@@ -14,6 +14,7 @@ sections:
       filters:
         folders:
           - blog
+		  - projects
     design:
       spacing:
         padding: ['3rem', 0, '6rem', 0]
