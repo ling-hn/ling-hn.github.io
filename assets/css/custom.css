@@ -1,11 +1,11 @@
 /* General settings */
 body {
-  font-size: 16px; /* Base font size */
+  font-size: 18px; /* Base font size */
   line-height: 1.5;
-  max-width: 1600px; /* Set max width for the page content */
+  max-width: 2200px; /* Set max width for the page content */
   margin: 0 auto; /* Center content horizontally */
   padding: 20px; /* Add some padding around the page */
-  font-family: Arial, sans-serif;
+  font-family: Georgia, serif;
 }
 
 /* Heading sizes */
@@ -18,7 +18,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 h4 {
