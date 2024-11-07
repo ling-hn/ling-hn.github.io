@@ -9,33 +9,6 @@ features:
     enable: true
 ---
 
-<style>
-body {
-  font-size: 14px; /* Adjust the size as needed */
-}
-
-h1 {
-  font-size: 18px;
-}
-
-h2 {
-  font-size: 16px;
-}
-
-h3 {
-  font-size: 16px;
-}
-
-h4 {
-  font-size: 14px;
-}
-
-p {
-  font-size: 14px;
-}
-
-</style>
-
 ### Probability Basics
 
 - **Probability**
