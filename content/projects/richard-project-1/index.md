@@ -11,11 +11,7 @@ features:
 
 The Solomon equations describe the time evolution of the magnetization components of a system of interacting spins. The given Solomon equations for a system of two interacting spins $I$and $S$are:
 
-\begin{aligned}
-     \frac{dI_z}{dt} = -\rho_I ( \langle I_z \rangle - I_z^0 ) - \sigma_{IS} ( \langle S_z \rangle - S_z^0 ) - \delta_I 2I_z S_z\\
-     \frac{dS_z}{dt} = -\rho_S ( \langle S_z \rangle - S_z^0 ) - \sigma_{IS} ( \langle I_z \rangle - I_z^0 ) - \delta_S 2I_z S_z \\
-     \frac{d(2I_z S_z)}{dt} = -\rho_{IS} 2I_z S_z - \delta_I ( \langle I_z \rangle - I_z^0 ) - \delta_S ( \langle S_z \rangle - S_z^0 ) \\
-\end{aligned}
+$$\frac{dI_z}{dt} = -\rho_I ( \langle I_z \rangle - I_z^0 ) - \sigma_{IS} ( \langle S_z \rangle - S_z^0 ) - \delta_I 2I_z S_z$$$$\frac{dS_z}{dt} = -\rho_S ( \langle S_z \rangle - S_z^0 ) - \sigma_{IS} ( \langle I_z \rangle - I_z^0 ) - \delta_S 2I_z S_z$$$$\frac{d(2I_z S_z)}{dt} = -\rho_{IS} 2I_z S_z - \delta_I ( \langle I_z \rangle - I_z^0 ) - \delta_S ( \langle S_z \rangle - S_z^0 )$$
 
 - $I_z^0$and $S_z^0$are the equilibrium values for the z-magnetization of the $I$and $S$spins, respectively.
 - $2I_z S_z$represents the heteronuclear, longitudinal two-spin order. This term reflects the imbalance in the occupancy of the four energy levels of the coupled $IS$system.
@@ -26,7 +22,7 @@ The Solomon equations describe the time evolution of the magnetization component
 
 Define $\Delta I_z = \langle I_z \rangle - I_z^0$and $\Delta S_z = \langle S_z \rangle - S_z^0$
 
-\begin{aligned}
+$$
 \frac{d}{dt} \begin{bmatrix} 
 \langle I_z \rangle - I_z^0 \\ 
 \langle S_z \rangle - S_z^0 \\ 
@@ -40,11 +36,11 @@ Define $\Delta I_z = \langle I_z \rangle - I_z^0$and $\Delta S_z = \langle S_z \
 \Delta S_z \\ 
 2I_z S_z 
 \end{bmatrix}
-\end{aligned}
+$$
 
 Given that $\frac{dI_z^0}{dt} = 0$and $\frac{dS_z^0}{dt} = 0$, it is indeed correct to write the differential equations directly in terms of $I_z$, $S_z$, and $2I_z S_z$without explicitly considering the equilibrium values $I_z^0$and $S_z^0$in the differentiation. 
 
-\begin{aligned}
+$$
 \frac{d}{dt} \begin{bmatrix} 
 I_z \\ 
 S_z \\ 
@@ -58,11 +54,11 @@ S_z \\
 \Delta S_z \\ 
 2I_z S_z 
 \end{bmatrix}
-\end{aligned}
+$$
 
 Rewrite the equation in form of $\frac{d\mathbf{M}}{dt} = \mathbf{A} \mathbf{M}(t) + \mathbf{B}$, 
 
-\begin{aligned}
+$$
 \frac{d}{dt} \begin{bmatrix} 
 I_z \\ 
 S_z \\ 
@@ -81,7 +77,7 @@ S_z \\
 \sigma_{IS} I_z^0 + \rho_S S_z^0 \\ 
 \delta_I I_z^0 + \delta_S S_z^0 
 \end{bmatrix}
-\end{aligned}
+$$
 
 We start from here. 
 
@@ -212,13 +208,12 @@ The goal is to find $\delta_S$, the cross-correlation rates due to DD-CSA. Let's
 
 For an ODE $\frac{dy}{dt} = f(t, y)$, RK4 estimates the solution $y(t)$over a small interval $[t, t+h]$using the following steps:
 
-\begin{aligned}
-  k_1 &= h f(t_n, y_n), \\
-  k_2 &= h f(t_n + \frac{h}{2}, y_n + \frac{k_1}{2}), \\
-  k_3 &= h f(t_n + \frac{h}{2}, y_n + \frac{k_2}{2}), \\
-  k_4 &= h f(t_n + h, y_n + k_3), \\
-  y_{n+1} &= y_n + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4).
-\end{aligned}
+$$k_1 = h f(t_n, y_n)$$$$
+k_2 = h f(t_n + \frac{h}{2}, y_n + \frac{k_1}{2})$$$$
+k_3 = h f(t_n + \frac{h}{2}, y_n + \frac{k_2}{2})$$$$
+k_4 = h f(t_n + h, y_n + k_3)$$$$
+y_{n+1} = y_n + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4).
+$$
 
 The method adapts the step size $h$to control the error, ensuring the solution remains within a relative error tolerance of $10^{-10}$.
 
@@ -229,18 +224,14 @@ The method adapts the step size $h$to control the error, ensuring the solution r
 
 #### 3. Eigenproblem Analytical Solution
 
-\begin{aligned}
-&\text{Differential equation} \quad &\frac{d\mathbf{M}}{dt} &= \mathbf{A} \mathbf{M}(t) + \mathbf{B} \\
-&\text{Eigenvalue Decomposition} \quad &A &= V \Lambda V^{-1}\\
-&\text{Homogeneous Solution} \quad &\frac{dM_h}{dt} &= A M_h\\
-&& M_h(t) &= V e^{\Lambda t} V^{-1} M_0 \\
-&\text{Particular Solution} \quad &A M_p &+ B = 0\\
-&& M_p &= -A^{-1} B \\
-&\text{Total Solution} \quad &M(t) &= M_h(t) + M_p\\
-\end{aligned}
+Differential equation $$\frac{d\mathbf{M}}{dt} = \mathbf{A} \mathbf{M}(t) + \mathbf{B}$$
+Eigenvalue Decomposition $$A = V \Lambda V^{-1}$$
+Homogeneous Solution $$\frac{dM_h}{dt} = A M_h$$$$M_h(t) = V e^{\Lambda t} V^{-1} M_0$$
+Particular Solution$$A M_p + B = 0$$$$M_p = -A^{-1} B$$
+Total Solution$$M(t) = M_h(t) + M_p$$
 
 
-# Reference
+### Reference
 
 * Kuprov, I., & Hore, P. J. (2004). Chemically amplified 19F–1H nuclear Overhauser effects. Journal of Magnetic Resonance, 168(1), 1-7.
 * Forster, M. J. (1991). Comparison of compuational methods for simulating nuclear Overhauser effects in NMR spectroscopy. Journal of computational chemistry, 12(3), 292-300.
