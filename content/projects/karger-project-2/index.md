@@ -1,6 +1,7 @@
 ---
 title: "Fake Doctor?" 
 summary: Is Kärger a fake doctor? 
+date: 2024-09-01
 authors: L. H. Huang, A. van der Ham
 tags: ["Kärger", "History"]
 features:
