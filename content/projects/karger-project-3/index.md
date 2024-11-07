@@ -6,7 +6,7 @@ tags: ["Kärger", "History"]
 features:
   math:
     enable: true
-lang: "zh-hant"
+lang: "zh-Hant"
 ---
 
 *Eduard Kärger，1843年出生於 Althöfchen （位於前普魯士波茲南省，今波蘭盧布斯卡省）曾經是一名中學數學老師。我們碰巧在1876年的一篇學術報導中，看到一則他的數學博士論文的宣告，載名他在1875年在哥廷根大學拿到哲學博士的學位。詳細的 Kärger生平請詳見[前文](https://ling-hn.github.io/projects/karger-project-1/)。*
