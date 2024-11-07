@@ -1,5 +1,5 @@
 ---
-title: (Soloman Equations and Runge-Kutta 4th order Method
+title: Soloman Equations and Runge-Kutta 4th order Method
 summary: The Solomon equations describe the time evolution of the magnetization components of a system of interacting spins.
 date: 2024-09-01
 authors: L. H. Huang
