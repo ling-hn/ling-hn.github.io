@@ -33,7 +33,7 @@ cascade:
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: zh-Hant
+defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
