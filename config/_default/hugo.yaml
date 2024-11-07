@@ -43,6 +43,7 @@ languages:
     weight: 2
   en:
     contentDir: content
+    weight: 1
   zh-Hant:
     contentDir: content
     weight: 1
