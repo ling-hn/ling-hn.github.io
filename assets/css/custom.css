@@ -1,23 +1,38 @@
+/* General settings */
 body {
-  font-size: 12px; /* Adjust the size as needed */
+  font-size: 12px; /* Base font size */
+  line-height: 1.5;
+  max-width: 800px; /* Set max width for the page content */
+  margin: 0 auto; /* Center content horizontally */
+  padding: 20px; /* Add some padding around the page */
+  font-family: Arial, sans-serif;
 }
 
+/* Heading sizes */
 h1 {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h4 {
+  font-size: 16px;
+}
+
+/* Paragraph font size */
+p {
   font-size: 12px;
 }
 
-p {
-  font-size: 12px;
+/* Optional: Width for specific containers (like article or main content) */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }

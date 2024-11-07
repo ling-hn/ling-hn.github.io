@@ -7,8 +7,6 @@ tags: ["Study Notes", "Physics"]
 features:
   math:
     enable: true
-design:
-  css_style: 'font-size: 1px;' 
 ---
 
 <style>

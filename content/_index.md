@@ -13,7 +13,6 @@ sections:
     content:
       filters:
         folders:
-          - blog
 		  - projects
     design:
       spacing:

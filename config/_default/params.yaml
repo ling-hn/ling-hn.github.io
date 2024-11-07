@@ -24,7 +24,6 @@ marketing:
     pirsch: ''
   verification:
     google: ''
-    baidu: ''
 
 # Site header
 header:
@@ -59,3 +58,6 @@ features:
     url: ''
     content_dir: starters/blog/content
     branch: main
+
+params:
+  customCSS: "custom.css"
