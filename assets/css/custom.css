@@ -2,7 +2,7 @@
 body, .container, .content, .post, .page {
   font-size: 16px; /* Base font size */
   line-height: 1.5;
-  max-width: 1200px; /* Set max width for the page content */
+  max-width: 2200px; /* Set max width for the page content */
   margin: 0 auto; /* Center content horizontally */
   padding: 20px; /* Add some padding around the page */
   font-family: Georgia, serif;
@@ -12,12 +12,10 @@ body, .container, .content, .post, .page {
 /* Heading sizes */
 h1 {
   font-size: 22px;
-  line-height: 1.3;
 }
 
 h2 {
   font-size: 20px;
-  line-height: 1.4;
 }
 
 /* Paragraph font size */
@@ -27,7 +25,7 @@ p {
 
 /* Ensure other containers don't restrict width */
 .wrapper, .main-content, .entry-content, article, section {
-  max-width: 1200px;
+  max-width: 2200px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
@@ -45,4 +43,16 @@ body > .container, .container > .content, .content > .post {
     padding: 10px;
     max-width: 100%;
   }
+}
+
+.container, .content, .wrapper, .main, .post {
+  max-width: 1200px !important; /* or the width you prefer */
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.Content, .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }

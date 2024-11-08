@@ -43,7 +43,7 @@ removePathAccents: true
 ############################
 
 build:
-  writeStats: true
+  writeStats: false
 enableGitInfo: false
 summaryLength: 30
 pagination:
