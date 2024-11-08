@@ -14,19 +14,3 @@ main:
   - name: About
     url: about/
     weight: 40
- - name: Kärger
-   parent: proj
-   url: projects/karger
-   weight: 21
- - name: Richard
-   parent: proj
-   url: projects/richard
-   weight: 22
- - name: Harmonic
-   parent: proj
-   url: projects/harmonic
-   weight: 23
- - name: Hashimoto
-   parent: proj
-   url: projects/thyoid
-   weight: 24
