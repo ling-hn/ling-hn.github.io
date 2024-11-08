@@ -10,17 +10,17 @@ body {
 
 /* Heading sizes */
 h1 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 
 /* Optional: Width for specific containers (like article or main content) */
 .container {
-  max-width: 800px;
+  max-width: 3000px;
   margin: 0 auto;
   padding: 20px;
 }
