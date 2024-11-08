@@ -18,10 +18,6 @@ h2 {
   font-size: 20px;
 }
 
-/* Paragraph font size */
-p {
-  font-size: 16px;
-}
 
 /* Ensure other containers don't restrict width */
 .wrapper, .main-content, .entry-content, article, section {
