@@ -7,6 +7,7 @@ main:
     weight: 10
   - name: Project
     identifier: proj
+    url: projects/
     weight: 20
   - name: Study Notes
     url: blog/
