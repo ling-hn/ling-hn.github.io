@@ -2,7 +2,7 @@
 body {
   font-size: 16px; /* Base font size */
   line-height: 1.5;
-  max-width: 1600px; /* Set max width for the page content */
+  max-width: 3000px; /* Set max width for the page content */
   margin: 0 auto; /* Center content horizontally */
   padding: 20px; /* Add some padding around the page */
   font-family: Georgia, serif;
@@ -23,7 +23,7 @@ p {
 
 /* Optional: Width for specific containers (like article or main content) */
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }

@@ -7,26 +7,26 @@ main:
     weight: 10
   - name: Project
     identifier: proj
-    weight: 10
+    weight: 20
   - name: Study Notes
     url: blog/
-    weight: 10
+    weight: 30
   - name: About
     url: about/
-    weight: 10
-  - name: Kärger
-    parent: proj
-    url: projects/karger
-    weight: 20
-  - name: Richard
-    parent: proj
-    url: projects/richard
-    weight: 20
-  - name: Harmonic
-    parent: proj
-    url: projects/harmonic
-    weight: 20
-  - name: Hashimoto
-    parent: proj
-    url: projects/thyoid
-    weight: 20
+    weight: 40
+ - name: Kärger
+   parent: proj
+   url: projects/karger
+   weight: 21
+ - name: Richard
+   parent: proj
+   url: projects/richard
+   weight: 22
+ - name: Harmonic
+   parent: proj
+   url: projects/harmonic
+   weight: 23
+ - name: Hashimoto
+   parent: proj
+   url: projects/thyoid
+   weight: 24
