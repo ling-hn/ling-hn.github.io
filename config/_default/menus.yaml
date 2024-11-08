@@ -5,17 +5,28 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Blog
-    identifier: blog
-    weight: 20
-  - name: Projects
-    parent: blog
-    url: projects/
-    weight: 20
-  - name: Notes
-    parent: blog
+  - name: Project
+    identifier: proj
+    weight: 10
+  - name: Study Notes
     url: blog/
-    weight: 30
+    weight: 10
   - name: About
     url: about/
-    weight: 30
+    weight: 10
+  - name: Kärger
+    parent: proj
+    url: projects/karger
+    weight: 20
+  - name: Richard
+    parent: proj
+    url: projects/richard
+    weight: 20
+  - name: Harmonic
+    parent: proj
+    url: projects/harmonic
+    weight: 20
+  - name: Hashimoto
+    parent: proj
+    url: projects/thyoid
+    weight: 20
