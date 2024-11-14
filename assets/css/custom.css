@@ -21,7 +21,7 @@ h2 {
 
 /* Ensure other containers don't restrict width */
 .wrapper, .main-content, .entry-content, article, section {
-  max-width: 2200px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
@@ -39,16 +39,4 @@ body > .container, .container > .content, .content > .post {
     padding: 10px;
     max-width: 100%;
   }
-}
-
-.container, .content, .wrapper, .main, .post {
-  max-width: 1200px !important; /* or the width you prefer */
-  width: 100% !important;
-  margin: 0 auto !important;
-}
-
-.Content, .content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
 }
