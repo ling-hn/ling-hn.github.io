@@ -1,7 +1,7 @@
 ---
 title: Understanding Kurtosis and Its Implications
 summary: 
-date: 2023-11-31
+date: 2023-11-30
 authors: L. H. Huang
 tags: ["Study Notes", "Physics"]
 features:
