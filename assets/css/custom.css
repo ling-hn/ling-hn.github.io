@@ -1,6 +1,6 @@
 /* General settings */
 body, .container, .content, .post, .page {
-  font-size: 16px; /* Base font size */
+  font-size: 14px; /* Base font size */
   line-height: 1.5;
   max-width: 1200px; /* Set max width for the page content */
   margin: 0 auto; /* Center content horizontally */
@@ -11,13 +11,12 @@ body, .container, .content, .post, .page {
 
 /* Heading sizes */
 h1 {
-  font-size: 22px;
-}
-
-h2 {
   font-size: 20px;
 }
 
+h2 {
+  font-size: 18px;
+}
 
 /* Ensure other containers don't restrict width */
 .wrapper, .main-content, .entry-content, article, section {
@@ -25,18 +24,4 @@ h2 {
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-}
-
-/* Override potential theme-specific width settings */
-body > .container, .container > .content, .content > .post {
-  max-width: 800px !important;
-  width: 100%;
-}
-
-/* Responsive adjustments for smaller screens */
-@media (max-width: 768px) {
-  body, .container, .content, .post, .page, .wrapper, .main-content, .entry-content, article, section {
-    padding: 10px;
-    max-width: 100%;
-  }
 }
