@@ -6,7 +6,6 @@ body, .container, .content, .post, .page {
   margin: 0 auto; /* Center content horizontally */
   padding: 20px; /* Add some padding around the page */
   font-family: Georgia, serif;
-  box-sizing: border-box;
 }
 
 /* Heading sizes */
@@ -19,8 +18,8 @@ h2 {
 }
 
 /* Ensure other containers don't restrict width */
-.wrapper, .main-content, .entry-content, article, section {
-  max-width: 800px;
+.wrapper, .main-content, .entry-content, article {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
