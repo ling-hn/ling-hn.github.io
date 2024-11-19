@@ -34,4 +34,4 @@ highlight_name: false
 website: ""
 ---
 
-I am a PhD in Chemical Engineering with expertise in computational modeling for soft matter physics. Also enthusiastic in Data Science and Machine Learning through self-learning. Here is also a learning log in various scientific topics as well as on music and history stories.
+A space to share — discoveries in science, music, and history.
