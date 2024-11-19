@@ -1,5 +1,5 @@
 ---
-title: Study Notes
+title: 
 
 view: compact
 
