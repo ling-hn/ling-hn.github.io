@@ -1,4 +1,6 @@
 ---
-title: 
+title: Study Notes
+
 view: compact
+
 ---
