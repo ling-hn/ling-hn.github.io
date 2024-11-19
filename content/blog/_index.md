@@ -1,9 +1,5 @@
 ---
 title: 
-summary: Study Notes
----
----
-title: 
 type: landing
 
 sections:
