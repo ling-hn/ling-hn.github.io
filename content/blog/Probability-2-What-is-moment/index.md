@@ -1,6 +1,6 @@
 ---
 title: What is "Moment"?
-summary: When I looked back to review some basic concepts of probability theory, I found it is difficult to understand the terms "**Moment**".
+summary: When I looked back to review some basic concepts of probability theory, I found it is difficult to understand the term "Moment".
 date: 2023-11-15
 authors: L. H. Huang
 tags: ["Study Notes", "Physics"]
@@ -11,7 +11,7 @@ features:
 
 When I looked back to review some basic concepts of probability theory, I found it is difficult to understand the terms "**Moment**". In physics, moments refer to quantities like moments of inertia and dipole moments, while in statistics, moments relate to measures like expectation and variance. But why is it called a moment?
 
-### Why "moment"?
+#### Why "moment"?
 
 I first asked ChatGPT: Why are distribution's moments called "moments"? And it gave me a rather general explanation: 
 > The term "moments" in the context of statistics is **derived from the concept of moments in physics**, particularly the moments of inertia. Just as physical moments describe **the distribution of mass around a point or axis**, statistical moments describe **the distribution  of probability around a central value**. 
@@ -26,7 +26,7 @@ According to [wikitionery](https://en.wiktionary.org/wiki/moment), moment in mat
 
 The second moment in physics, known as the moment of inertia, measures the distribution of mass around an axis and its resistance to rotational acceleration. This concept of mass distribution is likely why the term "moment" is used in statistics to describe probability distributions. I think it is more clear to understand through formal mathematical equations, listed in the table below. 
 
-### Comparison 
+#### Comparison 
 
 | Moment      | Physics Concept              | Formula in Physics                       | Statistics Concept         | Formula in Statistics                                            |
 |-------------|------------------------------|------------------------------------------|----------------------------|------------------------------------------------------------------|
@@ -36,7 +36,7 @@ The second moment in physics, known as the moment of inertia, measures the distr
 
 The zeroth moment describes the entirety of the quantity (total mass vs. total probability). The first moment describes the average (mean position vs. mean value). The second moment describes the distribution shape (moment of inertia vs. variance), detailing how the object is shaped and how the distribution spreads.
 
-### Further confusion 矩vs動差
+#### Further confusion 矩vs動差
 
 Before closing the discussion, I would like to address the translation of "moment" in Mandarin. Unlike in English, where the term "moment" is used in both physics and statistics, there are two different translations: 矩 for physics and 動差 for statistics.
 
@@ -55,7 +55,7 @@ For "力矩," the term "動差" seems to better describe the moment of force. "�
 
 The etymology of the translation is unclear, but a post on a [BBS](https://www.ptt.cc/bbs/Statistics/M.1639188552.A.309.html)  reflects similar confusion, with comments suggesting that `reading the original English text rather than relying on Chinese translations`. I might have agreed with this perspective few years ago, but the confusion surrounding this terminology is not entirely a translation issue. But translation does bring more confusion.
 
-Reference
+#### Reference
 ---
 
 https://gregorygundersen.com/blog/2020/04/11/moments/
