@@ -7,6 +7,7 @@
 appearance:
   mode: system
   color: green
+  font_size: m
 
 # SEO
 marketing:
@@ -50,6 +51,11 @@ locale:
 
 # Site features
 features:
+  syntax_highlighter:
+    enable: false
+    extra_languages:
+      - r
+      - latex
   math:
     enable: true
   privacy_pack:
