@@ -1,7 +1,4 @@
 _site/
 .sass-cache/
 .jekyll-cache/
-*.gem
-*.log
-*.swp
 .DS_Store
