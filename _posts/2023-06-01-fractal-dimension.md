@@ -2,7 +2,7 @@
 layout: post
 title: Fractal Dimension
 description: An index for characterizing fractal patterns or sets by quantifying their complexity as a ratio of the change in detail to the change in scale.
-date: 2024-06-01
+date: 2023-06-01
 author: L. H. Huang
 tags: ["Study Notes", "Physics", "Polymer"]
 features:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is "Moment"?
+title: Revisit Probability - What is "Moment"?
 description: When I looked back to review some basic concepts of probability theory, I found it is difficult to understand the term "Moment".
 date: 2023-11-15
 author: L. H. Huang
@@ -17,7 +17,7 @@ When I looked back to review some basic concepts of probability theory, I found 
 I first asked ChatGPT: Why are distribution's moments called "moments"? And it gave me a rather general explanation: 
 > The term "moments" in the context of statistics is **derived from the concept of moments in physics**, particularly the moments of inertia. Just as physical moments describe **the distribution of mass around a point or axis**, statistical moments describe **the distribution  of probability around a central value**. 
 
-Ok now I know the terms "moment" in statistics is borrowed from physics and it somehow describes distribution (?). Wait a moment! Why is it called "moment" in Physics? Why this word "moment"? Clearly I am not the only one having this question[$^{1}$](https://gregorygundersen.com/blog/2020/04/11/moments/)[$^{, 2}$](https://stats.stackexchange.com/questions/17595/whats-so-moment-about-moments-of-a-probability-distribution)[$^{, 3}$](https://www.ptt.cc/bbs/Statistics/M.1639188552.A.309.html). In [$\text{Ref 1}$](https://gregorygundersen.com/blog/2020/04/11/moments/), the author started with the same question and wrote a very interesting discussion on it. Here I quote the first paragraph: 
+Ok now I know the terms "moment" in statistics is borrowed from physics and it somehow describes distribution (?). Wait a moment! Why is it called "moment" in Physics? Why this word "moment"? Clearly I am not the only one having this question.[^1][^2][^3] In Ref 1, the author started with the same question and wrote a very interesting discussion on it. Here I quote the first paragraph: 
 
 > ...According to Wiktionary, the words “moment” and “momentum” are doublets or etymological twins, meaning that they are two words in a language with the same etymological root. Both come from the Latin word “**movimentum**,” meaning to move, set in motion, or change. Today, a “moment” often refers to an instant in time, but we can guess at the connection to movement. For example, we might say things like, “It was a momentous occasion,” or, “The game was her big moment.” In both cases, the notion of **time and change are intertwined**.
 
@@ -31,9 +31,9 @@ The second moment in physics, known as the moment of inertia, measures the distr
 
 | Moment      | Physics Concept              | Formula in Physics                       | Statistics Concept         | Formula in Statistics                                            |
 |-------------|------------------------------|------------------------------------------|----------------------------|------------------------------------------------------------------|
-| Zeroth      | Total Mass                   | $M = \int dm$                     | Total Probability          | $\int_{-\infty}^{\infty} f_X(x) dx = 1$                   |
-| First       | Center of Mass               | $\bar{x} = \frac{1}{M} \int x_i dm$ | Mean         | $\int_{-\infty}^{\infty} (x-\mu) f_X(x) dx$     |
-| Second      | Moment of Inertia            | $I = \int (x_i-\bar{x})^2 dm$                 | Variance                   | $\int_{-\infty}^{\infty} (x-\mu)^2 f_X(x) dx$                    |
+| Zeroth      | Total Mass                   | $$M = \int dm$$                     | Total Probability          | $$\int_{-\infty}^{\infty} f_X(x) dx = 1$$                   |
+| First       | Center of Mass               | $$\bar{x} = \frac{1}{M} \int x_i dm$$ | Mean         | $$\int_{-\infty}^{\infty} (x-\mu) f_X(x) dx$$     |
+| Second      | Moment of Inertia            | $$I = \int (x_i-\bar{x})^2 dm$$                 | Variance                   | $$\int_{-\infty}^{\infty} (x-\mu)^2 f_X(x) dx$$                    |
 
 The zeroth moment describes the entirety of the quantity (total mass vs. total probability). The first moment describes the average (mean position vs. mean value). The second moment describes the distribution shape (moment of inertia vs. variance), detailing how the object is shaped and how the distribution spreads.
 
@@ -54,9 +54,11 @@ From the above translations, it is evident that "矩" originally referred to geo
 
 For "力矩," the term "動差" seems to better describe the moment of force. "動差" literally includes "動" (movement, rotation, change) and "差" (difference, distance), which aligns well with the definition of moment: the force causing rotation multiplied by the distance to the axis of rotation. 
 
-The etymology of the translation is unclear, but a post on a [BBS](https://www.ptt.cc/bbs/Statistics/M.1639188552.A.309.html)  reflects similar confusion, with comments suggesting that `reading the original English text rather than relying on Chinese translations`. I might have agreed with this perspective few years ago, but the confusion surrounding this terminology is not entirely a translation issue. But translation does bring more confusion.
+The etymology of the translation is unclear, but a post on a [BBS](https://www.ptt.cc/bbs/Statistics/M.1639188552.A.309.html)  reflects similar confusion, with comments suggesting that *reading the original English text rather than relying on Chinese translations*. I might have agreed with this perspective few years ago, but the confusion surrounding this terminology is not entirely a translation issue. But translation does bring more confusion.
+
 
 #### Reference
----
 
-https://gregorygundersen.com/blog/2020/04/11/moments/
+[^1]: https://gregorygundersen.com/blog/2020/04/11/moments/
+[^2]:https://stats.stackexchange.com/questions/17595/whats-so-moment-about-moments-of-a-probability-distribution
+[^3]: https://www.ptt.cc/bbs/Statistics/M.1639188552.A.309.html
