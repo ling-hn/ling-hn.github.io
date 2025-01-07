@@ -1,0 +1,173 @@
+@use "variables" as variables;
+@use "mixins" as mixins;
+@use "extends";
+
+/**
+ * Site header
+ */
+.site-header {
+  position: relative;
+  border-bottom: 1px solid variables.$color-grey-light;
+  min-height: 56px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  @include mixins.media-query(variables.$on-mobile) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.site-title {
+  font-size: 26px;
+  line-height: 56px;
+  letter-spacing: -1px;
+  float: left;
+
+  img {
+    height: 23px;
+  }
+
+  &,
+  &:visited {
+    color: variables.$color-grey-dark;
+  }
+}
+
+/**
+ * Site nav
+ */
+.site-nav {
+  z-index: 10;
+  float: right;
+  line-height: 56px;
+  background-color: variables.$color-background;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: variables.$color-text;
+    line-height: variables.$base-line-height;
+
+    // Gaps between nav items, but not on the first one
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+  }
+
+  @include mixins.media-query(variables.$on-mobile) {
+    position: absolute;
+    top: 12px;
+    right: 24px;
+
+    border: 1px solid variables.$color-grey-light;
+    border-radius: 5px;
+    text-align: right;
+
+    .menu-icon {
+      display: block;
+      float: right;
+      border-radius: 5px;
+      width: 38px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 4px;
+      text-align: center;
+
+      background: variables.$color-background url(variables.$base-url + "/assets/img/menu.png") 6px 4px no-repeat;
+      background-size: 26px 26px;
+    }
+
+    .menu {
+      clear: both;
+      display: none;
+      background-color: variables.$color-background;
+      min-width: 10em;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      font-size: 16px;
+      display: block;
+      padding: 6px 16px;
+    }
+  }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: 1px solid variables.$color-grey-light;
+  padding: variables.$spacing-unit 0;
+
+  @include mixins.media-query(variables.$on-mobile) {
+    padding-top: 10px;
+  }
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: calc(variables.$spacing-unit / 2);
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer-col-wrapper {
+  font-size: 15px;
+  color: variables.$color-grey;
+  margin-left: calc(-1 * variables.$spacing-unit / 2);
+
+  @extend %clearfix;
+}
+
+.footer-col {
+  float: left;
+  margin-bottom: calc(variables.$spacing-unit / 2);
+  padding-left: calc(variables.$spacing-unit / 2);
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 {
+  width: -webkit-calc(33% - (#{variables.$spacing-unit} / 2));
+  width: calc(33% - (variables.$spacing-unit / 2));
+}
+
+.follow-links > .social-link {
+  flex: 0 50%;
+}
+
+.powered-by {
+  text-align: end;
+  font-size: 13px !important;
+  color: variables.$color-grey;
+}
+
+@include mixins.media-query(variables.$on-mobile) {
+  .footer-col {
+    float: none;
+    width: 100%;
+  }
+
+  .powered-by {
+    text-align: start;
+  }
+}
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: variables.$spacing-unit 0;
+}
+
+.page-heading {
+  font-size: 20px;
+}

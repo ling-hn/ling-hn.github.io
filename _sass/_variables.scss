@@ -1,0 +1,21 @@
+@use "sass:color";
+
+$base-url: "" !default;
+
+$base-font-family: Charter, Georgia, Helvetica;
+$base-font-size: 14px;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.7;
+
+$spacing-unit: 30px;
+
+$color-text: #111;
+$color-background: #ffffff;
+$color-brand: #2a7ae2;
+
+$color-grey: #828282;
+$color-grey-light: color.adjust($color-grey, $lightness: 40%);
+$color-grey-dark: color.adjust($color-grey, $lightness: -25%);
+
+$on-mobile: 500px;
+$on-laptop: 800px;

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <head>
+    <style>
+      /* Center the profile picture */
+      .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Adjust to the desired height of the container */
+      }
+
+      .profile-pic {
+        width: 500px;
+        height: 500px;
+        border-radius: 70%; /* Optional: Makes the picture circular */
+        object-fit: cover; /* Ensures the image fits within the dimensions */
+      }
+    </style>
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+          <img
+            src="{{ page.profile_picture.src | absolute_url }}"
+            alt="{{ page.profile_picture.alt }}"
+            class="profile-pic"
+          />
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+    {% include foot.html %}
+  </body>
+</html>

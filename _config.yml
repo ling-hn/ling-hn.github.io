@@ -1,0 +1,52 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Flows of Mountain, Depths of Time 
+description: Flows of Mountain, Depths of Time 
+baseurl: "/bay"
+url: "https://ling-hn.github.io/"
+og_image: ''
+google_analytics: "G-XL5Z7F93X8"
+
+header:
+  pages:
+    - name: Home
+      slug: /
+    - name: Blog
+    - name: About
+
+footer:
+  show_powered_by: false
+  follow:
+    - type: linkedin
+      name: LinkedIn
+      link: https://www.linkedin.com/in/lhhuang93/
+    - type: github
+      name: GitHub
+      link: https://github.com/ling-hn
+    - type: rss
+      name: RSS
+      link: /feed.xml
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1

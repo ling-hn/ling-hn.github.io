@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="blog">
+          <h1 class="page-heading">{{ page.title }}</h1>
+          {{ content }}
+
+          <div class="blog-post-list">
+            {% for post in site.posts %}
+              {% if post.draft != true %}
+                <div class="blog-post-item" style="margin-bottom: 20px; border-bottom: 1px solid #ddd; padding-bottom: 10px;">
+                  <!-- Title and Date -->
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title" style="font-weight: bold; font-size: 18px; color: #000; text-decoration: none;">
+                      {{- post.title -}}
+                    </a>
+                    <span class="blog-post-date" style="font-size: 14px; color: #666;">
+                      {{ post.date | date: "%d %b %Y" }}
+                    </span>
+                  </div>
+
+                  <!-- Description -->
+                  <p class="blog-post-description" style="font-size: 14px; color: #333; margin-top: 5px;">
+                    {% assign description_words = post.description | split: " " %}
+                    {% if description_words.size > 20 %}
+                      {{ description_words | slice: 0, 20 | join: " " }}...
+                    {% else %}
+                      {{ post.description }}
+                    {% endif %}
+                  </p>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+    {% include foot.html %}
+  </body>
+</html>
