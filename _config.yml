@@ -25,9 +25,6 @@ footer:
     - type: github
       name: GitHub
       link: https://github.com/ling-hn
-    - type: rss
-      name: RSS
-      link: /feed.xml
 
 # Build settings
 markdown: kramdown
