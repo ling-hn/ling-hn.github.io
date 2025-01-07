@@ -8,7 +8,5 @@ hide_date: true
 
 *PhD in Chemical Engineering with expertise in computational physics and soft matter, particularily in computational rheology.* 
 
-- [LinkedIn](https://www.linkedin.com/in/lhhuang93/)
-- [GitHub](https://github.com/ling-hn)
-- [RSS Feed](/feed.xml)
+[LinkedIn](https://www.linkedin.com/in/lhhuang93/)
 
