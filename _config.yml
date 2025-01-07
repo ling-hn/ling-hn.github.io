@@ -3,7 +3,7 @@
 
 title: Flows of Mountain, Depths of Time 
 description: Flows of Mountain, Depths of Time 
-baseurl: "https://ling-hn.github.io/"
+baseurl:
 url: "https://ling-hn.github.io"
 og_image: ""
 google_analytics: "G-XL5Z7F93X8"
