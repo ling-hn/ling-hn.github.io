@@ -10,6 +10,7 @@ gem 'sass-embedded', '~> 1.83.0'
 # Plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
+#  gem "github-pages"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
