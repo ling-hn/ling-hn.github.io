@@ -61,6 +61,32 @@ It should be noted that there are famous examples of brilliant scientists obtain
 Indeed, most candidates pursued a doctorate not for its academic merit, but for social prestige, class advancement, or as a prerequisite for non-academic careers.
 Thus, by obtaining his doctorate in absentia, Kärger was simply fulfilling the expectations people had of teachers at the time. It was expected of him as a gymnasial teacher to become a doctor, with a professorship awarded to him in recognition of his seniority, after 27 years of teaching. His interest in the natural sciences was a genuine one though. This is evidenced by him attending a “vacation course of natural sciences for teachers” in Berlin, during the summer break of 1897.[^xvi] A follow-up after the 1896 Great Industrial Exposition, he and a group of over 40 teachers from all across Germany, visited a number of science related sites in the city, including the “Great Refractor” in Treptow, the largest movable telescope to date, a botanical garden, the cities electrical works, and many others.
 
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$
+
+***Kärger Project***
+
+[Eduard Kärger - A 19th century school math teacher](/2024/10/20/karger-project-1)\\
+[Eduard Kärger - Fake Doctor?](/2024/10/25/karger-project-2)\\
+[Eduard Kärger - Fake Doctor?  (中文版)](/2024/10/25/karger-project-3)
+
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$
+
 #### References
 
 [^1]: Literarisches Centralblatt für Deutschland 1876, vol. 1, p. 23.

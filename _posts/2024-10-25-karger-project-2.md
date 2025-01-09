@@ -95,6 +95,32 @@ Initially, my involvement was more passive, as I enjoyed the daily updates of di
 
 Overall, this investigation has been a rewarding journey. In addition to reading Kärger's dissertation — yes, we digitized and translated it into German — we borrowed books from the historical libraries of Göttingen and grappled with dense German research articles. Despite the challenges posed by language barriers (my lack of Latin, and difficulty reading German in old Goethe script), and the lack of digital information, the process of discovery has been thoroughly engaging, even *addictive*. Maybe we just stop here for now.
 
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$
+
+***Kärger Project***
+
+[Eduard Kärger - A 19th century school math teacher](/2024/10/20/karger-project-1)\\
+[Eduard Kärger - Fake Doctor?](/2024/10/25/karger-project-2)\\
+[Eduard Kärger - Fake Doctor?  (中文版)](/2024/10/25/karger-project-3)
+
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$
+
 #### Reference
 
 [^hammerp173]: Hammerstein, N. (2007). Vom Interesse des Staates: Graduierungen und Berechtigungswesen im 19. Jahrhundert. In R. C. Schwinges (Ed.), *Examen, Titel, Promotionen: Akademisches und staatliches Qualifikationswesen vom 13. bis zum 21. Jahrhundert. (pp. 169-194). p.173

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Revisit Probability - Brief Review of Probability
-description: A brief overview of fundamental probability concepts, together with visualization practice. Advanced topics are still under construction.
+title: Revisit Probability (1) - Brief Review of Probability
+description: A brief overview of fundamental probability concepts, together with visualization practice. 
 date: 2023-11-14
 author: L. H. Huang
 tags: ["Study Notes", "Physics"]
@@ -56,7 +56,10 @@ $$
 
 **Example 1:**
 Fair Six-Sided Die (Discrete Random Variable)
-![image](https://hackmd.io/_uploads/H1VQznL_0.png)
+
+<div style="text-align:center;">
+    <img src="https://hackmd.io/_uploads/H1VQznL_0.png" width="500">
+</div>
 
 **Example 2** 
 
@@ -71,7 +74,9 @@ $$F_X(x) = \begin{cases}
 0, & \text{if } x < 0
 \end{cases}$$
 
-![image](https://hackmd.io/_uploads/Hybq428OA.png)
+<div style="text-align:center;">
+    <img src="https://hackmd.io/_uploads/Hybq428OA.png" width="500">
+</div>
 
 
 ### Moments of Distributions
@@ -189,10 +194,10 @@ $$
 
 **Checkpoint**
 
-*Why using standardized moment instead of central moment?*
+* Why using standardized moment instead of central moment?
 :  To compare across different datasets regardless of their scale.
 
-*Why using standard deviation instead of mean value?*
+* Why using standard deviation instead of mean value?
 : Normalized by distribution shape instead distribution position.
 
 Moments are not dimensionless—they have units that depend on the power $$n$$ of the units of $$X$$. To make moments comparable across different scales and units, we standardize them. The standardized $$n^{th}$$ moments is obtained by dividing the $$n^{th}$$ central moment central moment by a normalization factor. 
@@ -203,7 +208,10 @@ $$
 
 Recall that the mean provides a measure of central tendency. It tells us where the center of a distribution is located and based on it we calculate the second moment (how does the distribution spread) and the third moment (how does the distirbution look like). While the mean provides information about the center, it doesn’t directly address the scale of dispersion or how asymmetrically the data are distributed. Therefore, using the standard deviation (which accounts for spread) makes more sense for normalizing moments like skewness and kurtosis.
 
-![image](https://hackmd.io/_uploads/BkeIlyeYC.png)
+
+<div style="text-align:center;">
+    <img src="https://hackmd.io/_uploads/BkeIlyeYC.png" width="500">
+</div>
 
 > This figure demonstrates how scaling affects the spread and raw moments (such as the third central moment) of a distribution without altering its shape or normalized skewness. Recall $$\mu_1 = \frac{1}{n} \sum_{i=1}^{n} x_i$$, $$\sigma = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^2}$$, $$\mu_{3} = \frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^3$$, and finally $$\bar{\mu_3} = \gamma = \frac{\mu_3}{\sigma^3}$$.
 
@@ -211,10 +219,27 @@ $$
 \quad
 $$
 
+---
 
-#### Fourth standardized moment: Kurtosis (*Tailedness*) (κυρτός)
+$$
+\quad
+$$
 
-*(Too interesting, summarize in another article)*
+***Revisit Probability***
+
+[(1) Brief Review of Probability](/2023/11/14/Probability-1-Basics-and-Moments)\\
+[(2) What is "Moment"?](/2023/11/15/Probability-2-What-is-moment)\\
+[(3) Understanding Kurtosis (κυρτός)](/2024/07/01/Probability-3-Kurtosis)
+
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$
 
 #### Reference
 

@@ -343,3 +343,28 @@ I_x^A(\tau) &= -\frac{1}{C}  e^{-\frac{1}{2} \Sigma \rho^t \tau} \left( C \cos\l
 2I_y^A I_z^X(\tau) &=  -\frac{1}{2\pi J} \left[ -2C e^{-\frac{\tau}{2} \Sigma \rho^t} \left[ i \cos\left(\frac{C\tau}{2}\right) + \sin\left(\frac{C\tau}{2}\right) \right] \right] 2I_y^A I_z^X(0)
 \end{aligned}
 $$
+
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$
+
+***Richard Project***
+
+[(1) Soloman equations and RK4 method](/2024/09/01/richard-project-1)\\
+[(2) Diagonalization of a Matrix](/2024/09/02/richard-project-2)
+
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$

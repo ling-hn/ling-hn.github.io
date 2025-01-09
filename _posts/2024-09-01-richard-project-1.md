@@ -272,6 +272,30 @@ $$
 \end{aligned}
 $$
 
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$
+
+***Richard Project***
+
+[(1) Soloman equations and RK4 method](/2024/09/01/richard-project-1)\\
+[(2) Diagonalization of a Matrix](/2024/09/02/richard-project-2)
+
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$
 
 #### Reference
 

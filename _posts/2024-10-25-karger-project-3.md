@@ -93,6 +93,31 @@ Eduard Kärger 的博士學位現在看來顯得極為可疑。幸運的是，�
 
 總的來說，這次調查是一段值得回味的旅程。除了閱讀 Kärger 的論文（我們還把他的論文掃描後，用手打了出來，並翻譯成英文），我們還從哥廷根的歷史圖書館借閱了古老的藏書，並嘗試研讀晦澀的德文學術文章。儘管語言障礙（我不懂拉丁文，又讀不懂歌德體的德文）以及缺乏現存網路資料帶來的挑戰，這次探索的過程卻極具吸引力，甚至讓人上癮。不過也許我們就暫時到此為止吧。
 
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$
+
+***Kärger Project***
+
+[Eduard Kärger - A 19th century school math teacher](/2024/10/20/karger-project-1)\\
+[Eduard Kärger - Fake Doctor?](/2024/10/25/karger-project-2)\\
+[Eduard Kärger - Fake Doctor?  (中文版)](/2024/10/25/karger-project-3)
+
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$
 
 #### 參考資料
 

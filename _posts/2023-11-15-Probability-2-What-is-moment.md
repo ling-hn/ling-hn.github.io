@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Revisit Probability - What is "Moment"?
-description: When I looked back to review some basic concepts of probability theory, I found it is difficult to understand the term "Moment".
+title: Revisit Probability (2) - What is "Moment"?
+description: Why is it called "Moment"? 力矩是什麼？
 date: 2023-11-15
 author: L. H. Huang
 tags: ["Study Notes", "Physics"]
@@ -56,6 +56,31 @@ For "力矩," the term "動差" seems to better describe the moment of force. "�
 
 The etymology of the translation is unclear, but a post on a [BBS](https://www.ptt.cc/bbs/Statistics/M.1639188552.A.309.html)  reflects similar confusion, with comments suggesting that *reading the original English text rather than relying on Chinese translations*. I might have agreed with this perspective few years ago, but the confusion surrounding this terminology is not entirely a translation issue. But translation does bring more confusion.
 
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$
+
+***Revisit Probability***
+
+[(1) Brief Review of Probability](/2023/11/14/Probability-1-Basics-and-Moments)\\
+[(2) What is "Moment"?](/2023/11/15/Probability-2-What-is-moment)\\
+[(3) Understanding Kurtosis (κυρτός)](/2024/07/01/Probability-3-Kurtosis)
+
+$$
+\quad
+$$
+
+---
+
+$$
+\quad
+$$
 
 #### Reference
 
