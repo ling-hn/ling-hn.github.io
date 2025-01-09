@@ -4,7 +4,7 @@ title: Fractal Dimension
 description: From regular fractal to polymer as random fractals
 date: 2023-06-01
 author: L. H. Huang
-tags: ["Study Notes", "Physics", "Polymer"]
+tags: ["Study Notes", "Physics", "Python"]
 features:
   math:
     enable: true

@@ -4,7 +4,7 @@ title: Revisit Probability (1) - Brief Review of Probability
 description: A brief overview of fundamental probability concepts, together with visualization practice. 
 date: 2023-11-14
 author: L. H. Huang
-tags: ["Study Notes", "Physics"]
+tags: ["Study Notes", "Physics", "Python"]
 features:
   math:
     enable: true

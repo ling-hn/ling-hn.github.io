@@ -4,7 +4,7 @@ title: Revisit Probability (3) - Understanding Kurtosis (κυρτός)
 description: Kurtosis, the fourth standardized moment in statistics.
 date: 2024-07-01
 author: L. H. Huang
-tags: ["Study Notes", "Physics"]
+tags: ["Study Notes", "Physics", "Python"]
 features:
   math:
     enable: true
