@@ -10,11 +10,11 @@ features:
     enable: true
 ---
 
-*In this series, I try to (progressively) explore the connections between music theory and physics. Starting from fundamental concepts in music theory, it gradually integrates acoustical and mathematical perspectives, ultimately leading to a visual interpretation of musical structures through Lissajous curves.*
+*In this series, I try to (progressively) explore the connections between music theory and physics. Starting from revisting fundamental concepts in music theory, gradually integrating mathematical perspectives, ultimately leading to a visual interpretation of musical structures through Lissajous curves.*
 
-### Pitch & Frequency 音高與頻率
+#### Pitch & Frequency 音高與頻率
 
-#### Pitch as a perceptual quality (感知)
+##### Pitch as a perceptual quality (感知)
 
 Is pitch simply the same as frequency? How do we define them? 
 (Yes, I start with definition. We all love definition.)
@@ -25,7 +25,7 @@ Pitch, on the other hand, is more about how high or low a sound seems to a liste
 
 > An interesting recent research—such as a study on mice exposed to repetitive stress—shows that perception (including pitch and loudness) can be altered independently of the physical stimulus, revealing how prolonged stress dampens sound-evoked cortical responses and leads to reduced loudness perception.[^ref1]
 
-#### "high" vs. "low" sounds
+##### "high" vs. "low" sounds
 
 We say a pitch is "high" or "low" because our brains map auditory features onto spatial metaphors, particularly vertical ones. It's not that sound waves physically move up or down, but that our perception of pitch is based on space, probably influenced by:
 
@@ -36,7 +36,7 @@ We say a pitch is "high" or "low" because our brains map auditory features onto 
 So, the idea of pitch as a spatial concept comes about because we perceive it, not measure it directly. It's all down to how our ears work, interpreting different frequencies, and our brain often frames it in a spatial way.
 
 
-### Octaves, Harmonic Series, and Overtones
+##### Octaves, Harmonic Series, and Overtones
 
 But here we still describe musical notes in terms of their physical frequency. ;-)
 
@@ -50,16 +50,13 @@ Musically, the harmonic series explains why certain intervals, like octaves (2:1
 
 Let’s use **A4 = 440 Hz** as the reference pitch and compare how key intervals—**octave (P8)**, **perfect fifth (P5)**, and **perfect fourth (P4)**—appear in both **just intonation** (純律) and **equal temperament** (平均律).
 
-| Interval               |  Just Frequency (Hz) | Equal Temperament Frequency (Hz) | Ratio |
-| -------------------    |  ------------------- | -------------------------------- | --------------------- |
-| Octave (A4-A5)         |  880.00 Hz           | 880.00 Hz                        | 2:1                   |
-| Perfect Fifth (A4-E5)  |  660.00 Hz           | 659.26 Hz                        | 3:2                   |
-| Perfect Fourth (A4-D5) |  586.67 Hz           | 587.33 Hz                        | 4:3                   |
+An octave from A4 (440 Hz) to A5 is the same in both systems: 880 Hz, because both define the octave as a 2:1 frequency ratio. A perfect fifth (A4 to E5) in just intonation is 660 Hz, while in equal temperament it is slightly lower at 659.26 Hz. A perfect fourth (A4 to D5) is 586.67 Hz in just intonation and slightly higher at 587.33 Hz in equal temperament.
+
 * In **just intonation**, the fifth and fourth are derived from simple integer ratios (3:2 and 4:3), and they align with the harmonic series.
 * In **equal temperament**, the octave remains identical (2:1), but all other intervals are adjusted slightly to allow every semitone to be exactly the 12th root of 2 (≈1.0595) apart. This enables modulation to all keys, but sacrifices perfect harmonic purity.
 
 
-### Twelve-tone equal temperament and MIDI pitch number
+#### Twelve-tone equal temperament and MIDI pitch number
 
 A4 = 440Hz is the standard tuning pitch in Western music. In Just intonation, intervals are defined by small whole-number frequency ratios (like 2:1, 4:3). The twelve-tone equal temperament (12-TET) system divides an octave into 12 equal parts, with each semitone having a frequency ratio of $2^{1/12}$. Twelve-tone equal temperament is the most widespread system in music today. It has been the predominant tuning system of Western music. I will continue this topic in another post.
 
@@ -79,7 +76,7 @@ This formula is essential in digital music production and synthesizer programmin
 ![image](https://hackmd.io/_uploads/HyZM8YqLxl.png)
 
 
-#### Digital music production
+##### Digital music production
 
 In modern digital music production, pitch is not just a perceptual or symbolic idea—it needs to be converted into precise numerical values that digital systems can process. Unlike human performers who interpret pitch intuitively, software and hardware instruments require explicit numerical instructions to know exactly what note to play and how to generate it.
 
@@ -92,6 +89,9 @@ To support musical expression and dynamic control, synthesizers—both analog an
 * Real-time modulation using LFOs, envelopes, or automation
 
 Such control is essential for sound design: a simple sine wave can be turned into a detuned supersaw, or a melody can be shifted by microtones—all because pitch is handled as mathematical data. An example of processing MIDI file by python is shown by International Audio Laboratories Erlangen.[^4]
+
+
+---
 
 
 [^ref1]: Bisharat G, Kaganovski E, Sapir H, Temnogorod A, Levy T, et al. (2025) Repeated stress gradually impairs auditory processing and perception. PLOS Biology 23(2): e3003012.
