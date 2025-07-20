@@ -12,12 +12,9 @@ features:
 
 *In this series, I try to (progressively) explore the connections between music theory and physics. Starting from revisting fundamental concepts in music theory, gradually integrating mathematical perspectives, ultimately leading to a visual interpretation of musical structures through Lissajous curves.*
 
-#### Pitch & Frequency 音高與頻率
-
-##### Pitch as a perceptual quality (感知)
+#### Pitch as a perceptual quality (感知)
 
 Is pitch simply the same as frequency? How do we define them? 
-(Yes, I start with definition. We all love definition.)
 
 In school physics, we learn about sound waves and their properties, like waveform (波形), frequency (頻率), and amplitude (振福). These are often linked to things like tone quality (音色), pitch (音高), and loudness (音量). Frequency is basically the number of vibrations per second, measured in Hertz (Hz).
 
@@ -25,7 +22,7 @@ Pitch, on the other hand, is more about how high or low a sound seems to a liste
 
 > An interesting recent research—such as a study on mice exposed to repetitive stress—shows that perception (including pitch and loudness) can be altered independently of the physical stimulus, revealing how prolonged stress dampens sound-evoked cortical responses and leads to reduced loudness perception.[^ref1]
 
-##### "high" vs. "low" sounds
+#### "high" vs. "low" sounds
 
 We say a pitch is "high" or "low" because our brains map auditory features onto spatial metaphors, particularly vertical ones. It's not that sound waves physically move up or down, but that our perception of pitch is based on space, probably influenced by:
 
@@ -36,7 +33,7 @@ We say a pitch is "high" or "low" because our brains map auditory features onto 
 So, the idea of pitch as a spatial concept comes about because we perceive it, not measure it directly. It's all down to how our ears work, interpreting different frequencies, and our brain often frames it in a spatial way.
 
 
-##### Octaves, Harmonic Series, and Overtones
+#### Octaves, Harmonic Series, and Overtones
 
 But here we still describe musical notes in terms of their physical frequency. ;-)
 
@@ -75,8 +72,7 @@ This formula is essential in digital music production and synthesizer programmin
 
 ![image](https://hackmd.io/_uploads/HyZM8YqLxl.png)
 
-
-##### Digital music production
+#### Digital music production
 
 In modern digital music production, pitch is not just a perceptual or symbolic idea—it needs to be converted into precise numerical values that digital systems can process. Unlike human performers who interpret pitch intuitively, software and hardware instruments require explicit numerical instructions to know exactly what note to play and how to generate it.
 
