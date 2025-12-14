@@ -20,7 +20,7 @@ In school physics, we learn about sound waves and their properties, like wavefor
 
 Pitch, on the other hand, is more about how high or low a sound seems to a listener. Usually, higher frequencies are thought of as higher pitches, but the relationship isn't perfectly linear. It can be affected by things like context, the sound's texture, and how our ears work. Pitch is more like a perceptual quality
 
-> An interesting recent research on mice exposed to repetitive stress shows that how we perceive things like pitch and loudness can actually be changed even if the physical stimulus isn't there, revealing how prolonged stress dampens sound-evoked responses and leads to reduced loudness perception.[^[ref1]] 
+> An interesting recent research on mice exposed to repetitive stress shows that how we perceive things like pitch and loudness can actually be changed even if the physical stimulus isn't there, revealing how prolonged stress dampens sound-evoked responses and leads to reduced loudness perception.[^ref1] 
 
 #### "high" vs. "low" sounds
 
@@ -30,7 +30,7 @@ We say a pitch is "high" or "low" because our brains map auditory features onto 
 
 * Musical instrument design - many of them put high notes right above low ones (like on a piano or the different strings). People also tend to use right hand to indicate high sound while left hand for low sound.
 
-* Perceptual mapping – Psychophysical studies show that people naturally associate high frequencies with higher spatial locations, even in cross-modal matching tasks (e.g., matching sound to height).[^[2]] [^[3]]
+* Perceptual mapping – Psychophysical studies show that people naturally associate high frequencies with higher spatial locations, even in cross-modal matching tasks (e.g., matching sound to height).[^2] [^3]
 
 The idea of pitch as a spatial concept comes about because we perceive it, not measure it directly. It all comes down to how our ears work, picking up different frequencies, and our brain often frames it in a spatial way.
 
@@ -58,7 +58,7 @@ An octave from A4 (440 Hz) to A5 is the same in both systems: 880 Hz, because bo
 
 In modern digital music production, pitch is not just a perceptual or symbolic idea—it needs to be converted into precise numerical values that digital systems can process. Unlike human performers who interpret pitch intuitively, software and hardware instruments require explicit numerical instructions to know exactly what note to play and how to generate it.
 
-The **twelve-tone equal temperament (12-TET)** system divides an octave into 12 equal parts, with each semitone having a frequency ratio of $$2^{1/12}$$. This is implemented in the MIDI (Musical Instrument Digital Interface) system. MIDI (Musical Instrument Digital Interface) assigns each pitch a number (0–127). For example, MIDI 69 corresponds to A4 (440Hz). The frequency of any MIDI note can be calculated with a formula.
+The twelve-tone equal temperament (12-TET) system divides an octave into 12 equal parts, with each semitone having a frequency ratio of $$2^{1/12}$$. This is implemented in the MIDI (Musical Instrument Digital Interface) system. MIDI (Musical Instrument Digital Interface) assigns each pitch a number (0–127). For example, MIDI 69 corresponds to A4 (440Hz). The frequency of any MIDI note can be calculated with a formula.
 
 $$
 f(n) = 440 \cdot 2^{(n - 69)/12}
