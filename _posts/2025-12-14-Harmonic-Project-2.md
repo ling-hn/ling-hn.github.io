@@ -10,7 +10,7 @@ features:
     enable: true
 ---
 
-> *In this series, I try to (progressively) understand the connections between music theory and physics. Starting from revisting fundamental concepts in music theory, gradually integrating mathematical perspectives, ultimately leading to a visual interpretation of musical structures through Lissajous curves.*
+*In this series, I try to (progressively) understand the connections between music theory and physics. Starting from revisting fundamental concepts in music theory, gradually integrating mathematical perspectives, ultimately leading to a visual interpretation of musical structures through Lissajous curves.*
 
 #### Pitch as a perceptual quality (感知)
 
