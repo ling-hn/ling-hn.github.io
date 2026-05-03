@@ -11,10 +11,10 @@ features:
 ---
 
 
-*Submission: 11.2024*
-*Accepted: 08.2025*
-*Published: 05.2026*
-[Real Lives: Eduard Friedrich Kärger, Historian feature, The Historian 169: Visual Arts](https://www.history.org.uk/publications/resource/11444/real-lives-eduard-friedrich-karger)
+*Submission: 11.2024*\\
+*Accepted: 08.2025*\\
+*Published: 05.2026*\\
+[Real Lives: Eduard Friedrich Kärger, Historian feature, The Historian 169: Visual Arts](https://www.history.org.uk/publications/resource/11444/real-lives-eduard-friedrich-karger)\\
 
 >The following version is slightly different from published version.
 
